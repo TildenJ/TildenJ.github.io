@@ -1,0 +1,42 @@
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>张国平的教学网盘 - 兼容模式</title>
+<style type="text/css">
+  html{overflow:hidden;}
+  .button {
+    float: right;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #e7e7e7; color: black;
+    font-size: 10px;
+    padding: 6px;
+    border: none;
+    text-align: center;
+    /* text-decoration: none; */
+  }
+  .button:hover {
+    background-color: #eeeded; /* Green */
+    color: rgba(0, 0, 0, 0.938);
+  }
+</style>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f1ca92d7891aa8e5d46000f603072d20";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>  
+</head>
+<body> 
+<button id="btn" class="button">返回普通模式</button>
+<iframe src="http://81.70.155.173:5151" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
+<script>
+  var btn = document.getElementById('btn');
+  btn.onclick = () => {
+    window.location.href = 'index.html';
+  }
+</script>
+</body>

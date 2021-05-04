@@ -4,6 +4,21 @@
 <title>张国平的教学网盘</title>
 <style type="text/css">
     html{overflow:hidden;}
+    .button {
+      float: right;
+      margin-right: 10px;
+      border-radius: 4px;
+      background-color: #e7e7e7; color: black;
+      font-size: 10px;
+      padding: 6px;
+      border: none;
+      text-align: center;
+      /* text-decoration: none; */
+    }
+    .button:hover {
+      background-color: #eeeded; /* Green */
+      color: rgba(0, 0, 0, 0.938);
+    }
 </style>
 <script>
   var _hmt = _hmt || [];
@@ -16,5 +31,12 @@
 </script>  
 </head>
 <body> 
+<button id="btn" class="button">打开兼容模式</button>
 <iframe src="http://81.70.155.173/" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
+<script>
+    var btn = document.getElementById('btn');
+    btn.onclick = () => {
+      window.location.href = 'ie.html';
+    }
+</script>
 </body>
