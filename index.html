@@ -32,11 +32,11 @@
 </head>
 <body> 
 <button id="btn" class="button">打开兼容模式</button>
-<iframe src="http://81.70.155.173/" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
 <script>
-    var btn = document.getElementById('btn');
-    btn.onclick = () => {
-      window.location.href = 'ie.html';
-    }
+  var btn = document.getElementById('btn');
+  btn.onclick = function() {
+    window.location.href = 'ie.html';
+  }
 </script>
+<iframe src="http://81.70.155.173/" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
 </body>

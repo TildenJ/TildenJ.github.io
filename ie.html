@@ -32,11 +32,11 @@
 </head>
 <body> 
 <button id="btn" class="button">返回普通模式</button>
-<iframe src="http://81.70.155.173:5151" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
 <script>
   var btn = document.getElementById('btn');
-  btn.onclick = () => {
+  btn.onclick = function() {
     window.location.href = 'index.html';
   }
 </script>
+<iframe src="http://81.70.155.173:5151" height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto" ></iframe>  
 </body>
